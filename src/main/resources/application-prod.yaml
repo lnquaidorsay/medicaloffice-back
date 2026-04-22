@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://cabinetmedical-postgres:5432/cabinetmedical
+    username: admin
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: validate
